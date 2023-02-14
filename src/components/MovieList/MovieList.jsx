@@ -15,7 +15,7 @@ function MovieList() {
 
     const clickHandler = (movie) => {
         dispatch({
-            type: 'DISPLAY_DETAILS',
+            type: 'FETCH_GENRES',
             payload: movie,
         })
         history.push('/details')
