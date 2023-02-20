@@ -16,7 +16,7 @@ const Details = () => {
                         <div key={details.id} >
                             <h2>{details.title}</h2>
                             <img src={details.poster} alt={details.title} className="detailPoster" />
-                            <h4>{details.description}</h4>
+                            <h4 className="detailsDisplay">{details.description}</h4>
                             {genres.map(genre => {
                                 return (
                                     <div key={genre.id} >
