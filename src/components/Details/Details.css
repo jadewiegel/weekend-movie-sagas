@@ -1,0 +1,8 @@
+.detailPoster {
+    border-style: inset;
+    border-width: 10px;
+    border-color: bisque;
+    margin: 5%;
+    background-color: cadetblue;
+    border-radius: 20px;
+}   

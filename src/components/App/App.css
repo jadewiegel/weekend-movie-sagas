@@ -1,8 +1,11 @@
 .App {
   text-align: center;
+  color: white
 }
 
-
+.title {
+  font-family: 'Times New Roman', Times, serif;
+}
 .App-header {
   background-color: #222;
   height: 150px;

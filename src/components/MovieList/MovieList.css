@@ -1,4 +1,28 @@
 .movies {
+    background-color: black;
+    color: white;
     display : flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.poster {
+    display: grid;
+    grid-template-columns: 225px;
+    place-items: center;
+    border-style: inset;
+    border-width: 10px;
+    border-color: bisque;
+    margin: 5%;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+
+.posterImg {
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.movieList {
+    font-family: 'Times New Roman', Times, serif;
 }

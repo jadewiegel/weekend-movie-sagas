@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from "react-router-dom";
-
+import "./Details.css"
 
 const Details = () => {
 
@@ -15,7 +15,7 @@ const Details = () => {
             <section className="details">
                         <div key={details.id} >
                             <h2>{details.title}</h2>
-                            <img src={details.poster} alt={details.title} />
+                            <img src={details.poster} alt={details.title} className="detailPoster" />
                             <h4>{details.description}</h4>
                             {genres.map(genre => {
                                 return (
