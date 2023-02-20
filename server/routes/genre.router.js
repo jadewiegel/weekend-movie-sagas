@@ -20,11 +20,3 @@ router.get('/:id', (req, res) => {
 });
 
 module.exports = router;
-
-
-// SELECT "region"."name", SUM("country"."population" / "land_area"."sq_km") AS "density"
-// FROM "country" JOIN "land_area" ON "country"."country_code" = "land_area"."country_code"
-// JOIN "region" ON "country"."region_id" = "region"."id"
-// GROUP BY "region"."name" 
-// ORDER BY "density" DESC
-// LIMIT 10;
